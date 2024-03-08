@@ -63,6 +63,9 @@ public class Salario {
 
     @Override
     public String toString() {
-        return "Seu salário bruto de " + String.format("%.2f", this.salarioBruto) + " \nterá um desconto do INSS de " + String.format("%.2f",this.descontosInss) + " \ne do irpf " + String.format("%.2f",this.descontoIrpf) + " \ntotalizando liquido de: " + String.format("%.2f",this.salarioLiquido);
+        return "Seu salário bruto de " + String.format("%.2f", this.salarioBruto)
+                + " \nterá um desconto do INSS de " + String.format("%.2f",this.descontosInss)
+                + " \ne do IRPF " + String.format("%.2f",this.descontoIrpf)
+                + " \ntotalizando liquido de: " + String.format("%.2f",this.salarioLiquido);
     }
 }
